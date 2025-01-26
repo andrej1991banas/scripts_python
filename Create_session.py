@@ -34,9 +34,11 @@ try:
 
 except ValueError:
     print("Zadajte, prosím, platné číslo.")
+    
 else:
     def choose():
         cur_session = []
+        
         if x==1:
             first_exercise=random.choice(power)
             cur_session.append(first_exercise)
@@ -98,13 +100,10 @@ else:
     def show_session():
         for exercise in session:
             print (exercise)
-
-
-
-
         
     print(session)
     show_session()
+
 
 
 try:
@@ -112,6 +111,7 @@ try:
 
 except ValueError:
     print("Zadajte, prosím, platné číslo.")
+    
 else:
     if y>=2:
         def more_sessions():
